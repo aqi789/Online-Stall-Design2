@@ -4,15 +4,24 @@
     box-sizing: border-box;
     border: 0;
 }
+.body {
+    background-color: rgb(234, 234, 159);
+    width: 100%;
+}
 table {
     border-collapse: collapse;
 }
 td{
-    border: 1px solid black;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
 }
 .dark {
     background-color: black;
     width: 60px;
+    height: 60px;
 }
 .column-2, .column-3 {
     margin-top: 60px;
@@ -27,47 +36,47 @@ td{
     align-items: center;
 }
 .column-1 {
-    margin-top: 105px;
+    margin-top: 205px;
 }
 .column-1 td, .column-5 td{
-    padding: 20px;
+    padding: 15px;
 }
 .column-2 td {
-    padding: 20px 70px;
+    padding: 30px 70px;
 }
 .column-3 td{
-    padding: 20px 70px;
+    padding: 30px 70px;
 }
 .column-4 td {
-    padding: 20px 70px;
+    padding: 30px 70px;
 }
 .in {
     background-color: rgb(103, 181, 225);
     height: 150px;
     width: 45%;
     text-align: center;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 .blank {
     background-color: black;
     width: 10%;
     height: 150px;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 .out {
     background-color: rgb(188, 170, 115);
     width: 45%;
     height: 150px;
-    border: 2px solid black;
+    border: 3px solid black;
 
 }
 .entry {
     width: 100%;
-    border: 2px solid black;
+    border: 3px solid black;
     height: 150px;
 }
 .blank-toright table td {
-    padding: 20px;
+    padding: 15px;
 }
 .food {
     background-color: rgb(15, 190, 131);
@@ -81,5 +90,6 @@ td{
 @media (max-width: 1419px) {
     body {
         overflow-x: scroll;
+        background-color: rgb(234, 234, 159);
     }
 }
